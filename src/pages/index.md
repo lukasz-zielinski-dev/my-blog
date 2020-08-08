@@ -1,12 +1,9 @@
 ---
 templateKey: index-page
 title: Łukasz Zieliński
+subtitle: Programowanie, zdrowy styl życia, rozrywka i inne...
 image: /img/anas-alshanti-fexpdv001o4-unsplash.jpg
 heading: Cześć!
-subheading: Programowanie, zdrowy styl życia, rozrywka i inne...
-mainpitch:
-  title: x
-  description: x
 description: Jestem Łukasz, witaj na mojej stronie. Będę to dzielił się moją
   wiedzą i przemyśleniami na interesujące mnie tematy (głownie programowanie,
   zdrowy styl życia i szeroko rozumiana rozrywka). Na stronie będę zamieszczał
@@ -31,18 +28,4 @@ intro:
       text: |-
         Rozrywka
         [OPIS]
-  heading: x
-  description: x
-main:
-  heading: x
-  description: x
-  image1:
-    alt: x
-    image: /img/apple-touch-icon.png
-  image2:
-    alt: x
-    image: /img/apple-touch-icon.png
-  image3:
-    alt: x
-    image: /img/apple-touch-icon.png
 ---
