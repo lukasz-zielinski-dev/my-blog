@@ -2,6 +2,24 @@ import React from 'react'
 import { Link } from 'gatsby'
 import github from '../img/github-icon.svg'
 import logo from '../img/logo.svg'
+import styled from "styled-components"
+
+const Brand = styled(Link)`
+  margin: 0;
+  
+  @import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+  font-family: 'Sriracha', cursive;
+  text-align: center;
+  color: #00BFA6;
+
+  /* Below desktops and laptops ----------- */
+  font-size: 1em;
+  /* Desktops and laptops ----------- */
+  @media only screen and (min-width: 1224px) {
+    font-size: 2em;
+  }
+`
+
 
 const Navbar = class extends React.Component {
   constructor(props) {
@@ -39,11 +57,11 @@ const Navbar = class extends React.Component {
         role="navigation"
         aria-label="main-navigation"
       >
-        <div className="container">
+        <div className="container has-text-primary">
           <div className="navbar-brand">
-            <Link to="/" className="navbar-item" title="Logo">
-              <img src={logo} alt="Kaldi" style={{ width: '88px' }} />
-            </Link>
+            <Brand to="/" className="navbar-item" title="Logo">
+            Łukasz Zieliński
+            </Brand>
             {/* Hamburger menu */}
             <div
               className={`navbar-burger burger ${this.state.navBarActiveClass}`}
@@ -61,19 +79,16 @@ const Navbar = class extends React.Component {
           >
             <div className="navbar-start has-text-centered">
               <Link className="navbar-item" to="/about">
-                About
+                O mnie
               </Link>
               <Link className="navbar-item" to="/products">
-                Products
+                Projekty
               </Link>
               <Link className="navbar-item" to="/blog">
                 Blog
               </Link>
               <Link className="navbar-item" to="/contact">
-                Contact
-              </Link>
-              <Link className="navbar-item" to="/contact/examples">
-                Form Examples
+                Kontakt
               </Link>
             </div>
             <div className="navbar-end has-text-centered">
