@@ -176,7 +176,7 @@ const Footer = () => (
   <FooterWrapper>
     <CreatedByWrapper>Workaround div</CreatedByWrapper>
     <CreatedByWrapper>
-      © 2020 Łukasz Zieliński. All rights reserved
+      © 2020 Created by Łukasz Zieliński.
     </CreatedByWrapper>
 
 
