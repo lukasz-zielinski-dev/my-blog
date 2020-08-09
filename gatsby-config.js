@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: 'Gatsby + Netlify CMS Starter',
+    title: 'Łukasz Zieliński - Blog',
     description:
-      'This repo contains an example business website that is built with Gatsby, and Netlify CMS.It follows the JAMstack architecture by using Git as a single source of truth, and Netlify for continuous deployment, and CDN distribution.',
+      'Strona zawiera wpisy dotyczące programowania, zdrowego stylu życia i rozrywki.',
   },
   plugins: [
     'gatsby-plugin-react-helmet',
