@@ -30,8 +30,8 @@ export const ProductPageTemplate = ({
       <h2
         className="has-text-weight-bold is-size-1"
         style={{
-          boxShadow: '0.5rem 0 0rgb(0, 191, 166), -0.5rem 0 0 rgb(0, 191, 166)',
-          backgroundColor: 'rgb(0, 191, 166)',
+          boxShadow: '0.5rem 0 0rgb(0, 160, 140), -0.5rem 0 0 rgb(0, 160, 140)',
+          backgroundColor: 'rgb(0, 160, 140)',
           color: 'white',
           padding: '1rem',
         }}
@@ -176,7 +176,7 @@ export const productPageQuery = graphql`
           blurbs {
             image {
               childImageSharp {
-                fluid(maxWidth: 240, quality: 64) {
+                fluid(maxWidth: 260, quality: 64) {
                   ...GatsbyImageSharpFluid
                 }
               }

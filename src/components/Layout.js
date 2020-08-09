@@ -14,8 +14,8 @@ const GlobalStyles = createGlobalStyle`
   body {
     padding: 0;
     margin: 0;
-    @import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
-  font-family: 'Sriracha', cursive;
+    @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+  font-family: 'Roboto', sans-serif;
   }
   *, *::before, *::after {
     box-sizing: border-box;

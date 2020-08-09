@@ -7,10 +7,10 @@ import styled from "styled-components"
 const Brand = styled(Link)`
   margin: 0;
   
-  @import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
-  font-family: 'Sriracha', cursive;
+  @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+  font-family: 'Roboto', sans-serif;
   text-align: center;
-  color: #00BFA6;
+  color: rgb(0, 160, 140);
 
   /* Below desktops and laptops ----------- */
   font-size: 1em;

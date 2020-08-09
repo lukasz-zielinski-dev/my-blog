@@ -111,7 +111,7 @@ import styled from "styled-components";
 import { FaGithub, FaYoutube, FaFacebookSquare } from "react-icons/fa";
 
 const FooterWrapper = styled.div`
-  background-color: rgba(0, 191, 166, 0.5);
+  background-color: rgba(0, 160, 140, 0.5);
   display: flex;
   padding: 5px;
 
@@ -133,8 +133,8 @@ const FooterWrapper = styled.div`
 `;
 
 const CreatedByWrapper = styled.div`
-  @import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
-  font-family: 'Sriracha', cursive;
+  @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+  font-family: 'Roboto', sans-serif;
   text-align: center;
   /* Below desktops and laptops ----------- */
   font-size: 1em;

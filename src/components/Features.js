@@ -1,16 +1,31 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import PreviewCompatibleImage from '../components/PreviewCompatibleImage'
+import styled from "styled-components";
+
+const FlexColumn = styled.div`
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+`
+
+const FeaturedItem = styled.div`
+  max-width: 450px;
+  text-align: justify;
+  text-justify: inter-word;
+
+`
 
 const FeatureGrid = ({ gridItems }) => (
-  <div className="columns is-multiline">
+  <FlexColumn className="columns is-multiline">
     {gridItems.map((item) => (
-      <div key={item.text} className="column is-6">
+      <FeaturedItem key={item.text} >
         <section className="section">
           <div className="has-text-centered">
             <div
               style={{
-                width: '240px',
+                width: '260px',
                 display: 'inline-block',
               }}
             >
@@ -19,9 +34,9 @@ const FeatureGrid = ({ gridItems }) => (
           </div>
           <p>{item.text}</p>
         </section>
-      </div>
+      </FeaturedItem>
     ))}
-  </div>
+  </FlexColumn>
 )
 
 FeatureGrid.propTypes = {
