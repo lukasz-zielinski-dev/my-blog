@@ -1,33 +1,30 @@
-import React from 'react'
-import { Link } from 'gatsby'
-import github from '../img/github-icon.svg'
-import logo from '../img/logo.svg'
-import styled from "styled-components"
+import React from "react";
+import { Link } from "gatsby";
+import styled from "styled-components";
 
 const Brand = styled(Link)`
   margin: 0;
   
-  @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
-  font-family: 'Roboto', sans-serif;
+
+  @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+  font-family: "Roboto", sans-serif;
   text-align: center;
   color: rgb(0, 160, 140);
-
   /* Below desktops and laptops ----------- */
   font-size: 1em;
   /* Desktops and laptops ----------- */
   @media only screen and (min-width: 1224px) {
     font-size: 2em;
   }
-`
-
+`;
 
 const Navbar = class extends React.Component {
   constructor(props) {
-    super(props)
+    super(props);
     this.state = {
       active: false,
-      navBarActiveClass: '',
-    }
+      navBarActiveClass: "",
+    };
   }
 
   toggleHamburger = () => {
@@ -41,14 +38,14 @@ const Navbar = class extends React.Component {
         // set the class in state for the navbar accordingly
         this.state.active
           ? this.setState({
-              navBarActiveClass: 'is-active',
+              navBarActiveClass: "is-active",
             })
           : this.setState({
-              navBarActiveClass: '',
-            })
+              navBarActiveClass: "",
+            });
       }
-    )
-  }
+    );
+  };
 
   render() {
     return (
@@ -60,7 +57,7 @@ const Navbar = class extends React.Component {
         <div className="container has-text-primary">
           <div className="navbar-brand">
             <Brand to="/" className="navbar-item" title="Logo">
-            Łukasz Zieliński
+              Łukasz Zieliński
             </Brand>
             {/* Hamburger menu */}
             <div
@@ -91,23 +88,12 @@ const Navbar = class extends React.Component {
                 Kontakt
               </Link>
             </div>
-            <div className="navbar-end has-text-centered">
-              <a
-                className="navbar-item"
-                href="https://github.com/netlify-templates/gatsby-starter-netlify-cms"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <span className="icon">
-                  <img src={github} alt="Github" />
-                </span>
-              </a>
-            </div>
+            <div className="navbar-end has-text-centered"></div>
           </div>
         </div>
       </nav>
-    )
+    );
   }
-}
+};
 
-export default Navbar
+export default Navbar;

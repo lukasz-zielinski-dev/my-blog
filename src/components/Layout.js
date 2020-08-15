@@ -9,9 +9,11 @@ import styled, { createGlobalStyle } from "styled-components";
 
 const GlobalStyles = createGlobalStyle`
   html{
-    min-height: 100vh;
+    height:100%;
+    overflow-y: auto;
   }
   body {
+    min-height:100%;
     padding: 0;
     margin: 0;
     @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
@@ -20,12 +22,23 @@ const GlobalStyles = createGlobalStyle`
   *, *::before, *::after {
     box-sizing: border-box;
   }
+  
+`;
+
+const StyledLayoutWrapper = styled.div`
+min-height:100vh;
+  display: flex;
+  flex-direction: column;
+`;
+
+const StyledFooterWrapper = styled.div`
+  margin-top: auto;
 `;
 
 const TemplateWrapper = ({ children }) => {
   const { title, description } = useSiteMetadata();
   return (
-    <div>
+    <StyledLayoutWrapper>
       <Helmet>
         <html lang="en" />
         <title>{title}</title>
@@ -67,8 +80,10 @@ const TemplateWrapper = ({ children }) => {
       <GlobalStyles />
       <Navbar />
       <div>{children}</div>
-      <Footer />
-    </div>
+      <StyledFooterWrapper>
+        <Footer />
+      </StyledFooterWrapper>
+    </StyledLayoutWrapper>
   );
 };
 

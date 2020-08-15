@@ -5,7 +5,7 @@ import Layout from "../components/Layout";
 import Content, { HTMLContent } from "../components/Content";
 import styled from "styled-components";
 
-const StyledTitle = styled.div`
+const StyledSection = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -17,7 +17,14 @@ const StyledPhoto = styled.div`
   height: 200px;
   width: 200px;
   border-radius: 50%;
-  display: none;
+  border: 5px solid rgb(0, 160, 140);
+`;
+
+const StyledContentWrapper = styled.div`
+  margin-top: 50px;
+  max-width: 850px;
+  text-align: justify;
+  text-justify: inter-word;
 `;
 
 export const AboutPageTemplate = ({
@@ -30,28 +37,20 @@ export const AboutPageTemplate = ({
 
   return (
     <section className="section section--gradient">
-      <div className="container">
-        <div className="columns">
-          <div className="column is-10 is-offset-1">
-            <div className="section">
-              <StyledTitle>
-              <h1 className="title is-size-2 has-text-weight-bold is-bold-light">
-                  {title}
-                </h1>
-                <StyledPhoto
-                  photo={
-                    !!photo.childImageSharp
-                      ? photo.childImageSharp.fluid.src
-                      : photo
-                  }
-                ></StyledPhoto>
-                
-              </StyledTitle>
-              <PageContent className="content" content={content} />
-            </div>
-          </div>
-        </div>
-      </div>
+      <StyledSection>
+        <h1 className="title is-size-2 has-text-weight-bold is-bold-light">
+          {title}
+        </h1>
+        <StyledPhoto
+          photo={
+            !!photo.childImageSharp ? photo.childImageSharp.fluid.src : photo
+          }
+        ></StyledPhoto>
+
+        <StyledContentWrapper>
+          <PageContent className="content" content={content} />
+        </StyledContentWrapper>
+      </StyledSection>
     </section>
   );
 };
