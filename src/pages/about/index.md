@@ -7,4 +7,9 @@ photo: /img/about-photo.jpg
 ### Hej!
 
 Nazywam się Łukasz, mam 26 lat. Interesuję się nowymi technologiami, programowaniem i zdrowym stylem życia.\
-Studiowałem Mechanikę i Budowę Maszyn na Politechnice Warszawskiej, ale od ponad dwóch lat zawodowo zajmuje się programowaniem. Lubię uczyć się nowych rzeczy i weryfikować nową wiedzę teoretyczną w praktyce. Chce, aby ten blog był miejscem, w którym będę mógł dokumentować przebieg i efekty moich małych projektów programistycznych i eksperymentów treningowo-żywieniowych.
+\
+Studiowałem Mechanikę i Budowę Maszyn na Politechnice Warszawskiej, ale od ponad dwóch lat zawodowo zajmuje się programowaniem. Lubię uczyć się nowych rzeczy i weryfikować zdobytą wiedzę w praktyce. Chcę, aby ten blog był miejscem, w którym będę mógł dokumentować przebieg i efekty moich projektów programistycznych oraz eksperymentów treningowo-żywieniowych.
+
+W pracy programuje głównie w Javie i Angularze, jednak aktualnie w wolnym czasie poznaję React\`a (Gatsby\`ego) - czego efektem jest ta strona. W przyszłości mam zamiar stworzyć kilka małych projektów opartych o Node.js i Flutter.\
+\
+Przez bardzo długi czas nie przykładałem większej uwagi do zdrowego stylu życia, co skutkowało otyłością i ogólnie słabym stanem zdrowia. Pewnego dnia  jednak postanowiłem to zmienić i udało mi się zrzucić ok. 34 kg. Od tego czasu staram się uważać na to co jem i ile się ruszam. Nie jestem wielkim fanem konkretnej diety, ani grupy aktywności fizycznych. Staram się ciągle edukować w tej dziedzinie, próbować różnych rzeczy i wybierać z nich to co mi odpowiada.
