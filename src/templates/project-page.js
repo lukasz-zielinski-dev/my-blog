@@ -3,6 +3,12 @@ import PropTypes from 'prop-types'
 import { graphql } from 'gatsby'
 import Layout from '../components/Layout'
 import Features from '../components/Features'
+import styled from "styled-components";
+
+const JustifiedContent = styled.p`
+  text-align: justify;
+  text-justify: inter-word;
+`;
 
 
 export const ProductPageTemplate = ({
@@ -37,24 +43,18 @@ export const ProductPageTemplate = ({
       <div className="container">
         <div className="section">
           <div className="columns">
-            <div className="column is-7 is-offset-1">
-              <h3 className="has-text-weight-semibold is-size-2">{heading}</h3>
-              <p>{description}</p>
-            </div>
-          </div>
-          <div className="columns">
             <div className="column is-10 is-offset-1">
-              <Features gridItems={intro.projects} />
-
-              <div className="tile is-ancestor">
-                <div className="tile is-vertical">
-                  <div className="tile">
-
-
+              <div className="content">
+                <div className="columns">
+                  <div className="column is-12">
+                    <h3 className="has-text-weight-semibold is-size-2">
+                      {heading}
+                    </h3>
+                    <JustifiedContent>{description}</JustifiedContent>
                   </div>
                 </div>
+                <Features gridItems={intro.projects} />
               </div>
-
             </div>
           </div>
         </div>
@@ -99,7 +99,7 @@ ProductPage.propTypes = {
 
 export default ProductPage
 
-export const productPageQuery = graphql`
+export const projectPageQuery = graphql`
   query ProductPage($id: String!) {
     markdownRemark(id: { eq: $id }) {
       frontmatter {

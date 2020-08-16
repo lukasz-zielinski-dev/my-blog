@@ -1,7 +1,7 @@
 ---
 heading: Projekty, wyzwania, eksperymenty...
-path: /products
-templateKey: product-page
+path: /projects
+templateKey: project-page
 title: Projekty
 image: /img/halacious-tzc3vjpck-q-unsplash.jpg
 description: Na tej stronie będę zamieszczał opisy moich różnych projektów wraz
