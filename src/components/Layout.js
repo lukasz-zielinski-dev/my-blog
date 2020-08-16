@@ -26,13 +26,18 @@ const GlobalStyles = createGlobalStyle`
 `;
 
 const StyledLayoutWrapper = styled.div`
-min-height:100vh;
+  min-height: 100vh;
   display: flex;
   flex-direction: column;
 `;
 
 const StyledFooterWrapper = styled.div`
   margin-top: auto;
+`;
+
+const StyledNavbarWrapper = styled.div`
+  border-bottom: 5px solid rgba(0, 160, 140, 0.5);
+  padding-left: calc(100vw - 100%);
 `;
 
 const TemplateWrapper = ({ children }) => {
@@ -78,7 +83,10 @@ const TemplateWrapper = ({ children }) => {
         />
       </Helmet>
       <GlobalStyles />
-      <Navbar />
+      <StyledNavbarWrapper>
+        <Navbar />
+      </StyledNavbarWrapper>
+
       <div>{children}</div>
       <StyledFooterWrapper>
         <Footer />

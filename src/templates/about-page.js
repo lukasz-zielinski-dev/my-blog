@@ -17,7 +17,7 @@ const StyledPhoto = styled.div`
   height: 200px;
   width: 200px;
   border-radius: 50%;
-  border: 5px solid rgb(0, 160, 140);
+  border: 5px solid rgba(0, 160, 140, 0.75);
 `;
 
 const StyledContentWrapper = styled.div`
