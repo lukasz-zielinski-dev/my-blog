@@ -11,7 +11,7 @@ const JustifiedContent = styled.p`
 `;
 
 
-export const ProductPageTemplate = ({
+export const ProjectPageTemplate = ({
   image,
   title,
   heading,
@@ -63,7 +63,7 @@ export const ProductPageTemplate = ({
   </div>
 )
 
-ProductPageTemplate.propTypes = {
+ProjectPageTemplate.propTypes = {
   image: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
   title: PropTypes.string,
   heading: PropTypes.string,
@@ -73,12 +73,12 @@ ProductPageTemplate.propTypes = {
   }),
 }
 
-const ProductPage = ({ data }) => {
+const ProjectPage = ({ data }) => {
   const { frontmatter } = data.markdownRemark
 
   return (
     <Layout>
-      <ProductPageTemplate
+      <ProjectPageTemplate
         image={frontmatter.image}
         title={frontmatter.title}
         heading={frontmatter.heading}
@@ -89,7 +89,7 @@ const ProductPage = ({ data }) => {
   )
 }
 
-ProductPage.propTypes = {
+ProjectPage.propTypes = {
   data: PropTypes.shape({
     markdownRemark: PropTypes.shape({
       frontmatter: PropTypes.object,
@@ -97,10 +97,10 @@ ProductPage.propTypes = {
   }),
 }
 
-export default ProductPage
+export default ProjectPage
 
 export const projectPageQuery = graphql`
-  query ProductPage($id: String!) {
+  query ProjectPage($id: String!) {
     markdownRemark(id: { eq: $id }) {
       frontmatter {
         title
