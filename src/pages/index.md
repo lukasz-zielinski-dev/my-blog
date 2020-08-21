@@ -4,7 +4,7 @@ title: Łukasz Zieliński
 subtitle: Programowanie, zdrowy styl życia, rozrywka i inne...
 image: /img/anas-alshanti-fexpdv001o4-unsplash.jpg
 heading: Cześć!
-description: Jestem Łukasz, witaj na mojej stronie. Będę to dzielił się moją
+description: Jestem Łukasz, witaj na mojej stronie. Będę tu dzielił się moją
   wiedzą i przemyśleniami na interesujące mnie tematy. Ze względu na to, że
   strona jest moim projektem weekendowym wpisy nie będą pojawiał się często, ale
   postaram się zadbać o ich systematyczność. Co będzie tematem wpisów?
