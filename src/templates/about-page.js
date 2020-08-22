@@ -12,6 +12,28 @@ const StyledSection = styled.div`
   align-items: center;
 `;
 
+const StyledRow = styled.div`
+width: 100%;
+max-width: 850px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  & > :last-child {
+      display: none;
+
+    }
+  
+    @media only screen and (min-width: 1224px) {
+    align-items: center;
+    flex-direction: row;
+    & > :last-child {
+      display: block;
+      visibility: hidden;
+    }
+  }
+`;
+
 const StyledPhoto = styled.div`
   background-image: url(${(props) => props.photo});
   height: 200px;
@@ -38,14 +60,28 @@ export const AboutPageTemplate = ({
   return (
     <section className="section section--gradient">
       <StyledSection>
-        <h1 className="title is-size-2 has-text-weight-bold is-bold-light">
-          {title}
-        </h1>
-        <StyledPhoto
-          photo={
-            !!photo.childImageSharp ? photo.childImageSharp.fluid.src : photo
-          }
-        ></StyledPhoto>
+        <StyledRow>
+          <StyledPhoto
+            photo={
+              !!photo.childImageSharp ? photo.childImageSharp.fluid.src : photo
+            }
+          ></StyledPhoto>
+          <h1
+            className="has-text-weight-bold is-size-3-mobile is-size-2-tablet is-size-1-widescreen"
+            style={{
+              boxShadow:
+                "rgb(0, 160, 140) 0.5rem 0px 0px, rgb(0, 160, 140) -0.5rem 0px 0px",
+              backgroundColor: "rgb(0, 160, 140)",
+              color: "white",
+              lineHeight: "1",
+              padding: "0.25em",
+              marginTop: "25px",
+            }}
+          >
+            {title}
+          </h1>
+          <div>Workaround div</div>
+        </StyledRow>
 
         <StyledContentWrapper>
           <PageContent className="content" content={content} />
