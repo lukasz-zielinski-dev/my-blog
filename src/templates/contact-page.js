@@ -73,6 +73,7 @@ export const ContactPageTemplate = ({
             color: "white",
             lineHeight: "1",
             padding: "0.25em",
+            marginTop: "25px",
           }}
         >
           {title}
