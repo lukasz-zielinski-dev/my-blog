@@ -74,3 +74,19 @@ collections:
           - {label: "Title", name: "title", widget: "string"}
           - {label: Photo, name: photo, widget: image}
           - {label: "Body", name: "body", widget: "markdown"}
+      - file: "src/pages/contact/thanks.md"
+        label: "Thanks for contact"
+        name: "contact-thanks"
+        fields:
+          - {label: "Template Key", name: "templateKey", widget: "hidden", default: "contact-thanks-page"}
+          - {label: Title, name: title, widget: string}
+          - {label: Subtitle, name: subtitle, widget: text}
+          - {label: Image, name: image, widget: image}
+      - file: "src/pages/404.md"
+        label: "404 Not found..."
+        name: "404"
+        fields:
+          - {label: "Template Key", name: "templateKey", widget: "hidden", default: "404-page"}
+          - {label: Title, name: title, widget: string}
+          - {label: Subtitle, name: subtitle, widget: text}
+          - {label: Image, name: image, widget: image}
