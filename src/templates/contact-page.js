@@ -5,6 +5,7 @@ import Layout from "../components/Layout";
 import Content, { HTMLContent } from "../components/Content";
 import styled from "styled-components";
 import ContactForm from "../pages/contact/contact-form";
+import PreviewCompatibleImage from "../components/PreviewCompatibleImage";
 
 const StyledSection = styled.div`
   display: flex;
@@ -13,19 +14,33 @@ const StyledSection = styled.div`
   align-items: center;
 `;
 
-const StyledPhoto = styled.div`
-  background-image: url(${(props) => props.photo});
-  height: 200px;
-  width: 200px;
-  border-radius: 50%;
-  border: 5px solid rgba(0, 160, 140, 0.75);
-`;
-
 const StyledContentWrapper = styled.div`
   margin-top: 50px;
   max-width: 850px;
   text-align: justify;
   text-justify: inter-word;
+`;
+
+const StyledRow = styled.div`
+width: 100%;
+max-width: 850px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  & > :last-child {
+      display: none;
+
+    }
+  
+    @media only screen and (min-width: 1224px) {
+    align-items: center;
+    flex-direction: row;
+    & > :last-child {
+      display: block;
+      visibility: hidden;
+    }
+  }
 `;
 
 export const ContactPageTemplate = ({
@@ -38,23 +53,41 @@ export const ContactPageTemplate = ({
 
   return (
     <section className="section section--gradient">
+
       <StyledSection>
-        <h1 className="title is-size-2 has-text-weight-bold is-bold-light">
+        <StyledRow>
+        <div
+          style={{
+            width: "175px",
+            display: "inline-block",
+          }}
+        >
+          <PreviewCompatibleImage imageInfo={photo} />
+        </div>
+      <h1
+          className="has-text-weight-bold is-size-3-mobile is-size-2-tablet is-size-1-widescreen"
+          style={{
+            boxShadow:
+              "rgb(0, 160, 140) 0.5rem 0px 0px, rgb(0, 160, 140) -0.5rem 0px 0px",
+            backgroundColor: "rgb(0, 160, 140)",
+            color: "white",
+            lineHeight: "1",
+            padding: "0.25em",
+          }}
+        >
           {title}
         </h1>
-        <StyledPhoto
-          photo={
-            !!photo.childImageSharp ? photo.childImageSharp.fluid.src : photo
-          }
-        ></StyledPhoto>
+        <div>Workaround div</div>
+        </StyledRow>
+      
+
+        
 
         <StyledContentWrapper>
           <PageContent className="content" content={content} />
           <ContactForm />
         </StyledContentWrapper>
-        
       </StyledSection>
-      
     </section>
   );
 };
@@ -95,7 +128,7 @@ export const aboutPageQuery = graphql`
         title
         photo {
           childImageSharp {
-            fluid(maxWidth: 200, quality: 100) {
+            fluid(maxHeight: 175, quality: 100) {
               ...GatsbyImageSharpFluid
             }
           }
