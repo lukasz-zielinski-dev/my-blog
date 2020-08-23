@@ -2,7 +2,7 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import { ContactThanksPageTemplate } from '../../templates/contact-thanks-page'
 
-const ContactThanksPagePreview = ({ entry, widgetFor, getAsset }) => (
+const ContactThanksPagePreview = ({ entry, getAsset }) => (
   <ContactThanksPageTemplate
     title={entry.getIn(['data', 'title'])}
     subtitle={entry.getIn(['data', 'subtitle'])}

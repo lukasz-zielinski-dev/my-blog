@@ -8,7 +8,7 @@ import ProjectPagePreview from './preview-templates/ProjectPagePreview'
 import IndexPagePreview from './preview-templates/IndexPagePreview'
 import BlogPagePreview from './preview-templates/BlogPagePreview'
 import ContactPagePreview from './preview-templates/ContactPagePreview'
-import ContactPageThanksPreview from './preview-templates/ContactPageThanksPreview'
+import ContactThanksPagePreview from './preview-templates/ContactThanksPagePreview'
 import NotFoundPagePreview from './preview-templates/ContactThanksPagePreview'
 
 CMS.registerMediaLibrary(uploadcare)
@@ -20,5 +20,5 @@ CMS.registerPreviewTemplate('projects', ProjectPagePreview)
 CMS.registerPreviewTemplate('blog', BlogPagePreview)
 CMS.registerPreviewTemplate('blog-post', BlogPostPreview)
 CMS.registerPreviewTemplate('contact', ContactPagePreview)
-CMS.registerPreviewTemplate('contact-thanks', ContactPageThanksPreview)
+CMS.registerPreviewTemplate('contact-thanks', ContactThanksPagePreview)
 CMS.registerPreviewTemplate('404', NotFoundPagePreview)

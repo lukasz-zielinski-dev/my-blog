@@ -2,7 +2,7 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import { NotFoundPageTemplate } from '../../templates/404-page'
 
-const AboutPagePreview = ({ entry, getAsset }) => (
+const NotFoundPagePreview = ({ entry, getAsset }) => (
   <NotFoundPageTemplate
     title={entry.getIn(['data', 'title'])}
     subtitle={entry.getIn(['data', 'subtitle'])}
