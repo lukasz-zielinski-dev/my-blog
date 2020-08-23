@@ -5,6 +5,9 @@ import { Helmet } from 'react-helmet'
 import { graphql, Link } from 'gatsby'
 import Layout from '../components/Layout'
 import Content, { HTMLContent } from '../components/Content'
+import { DiscussionEmbed } from "disqus-react"
+
+
 
 export const BlogPostTemplate = ({
   content,
@@ -12,9 +15,15 @@ export const BlogPostTemplate = ({
   description,
   tags,
   title,
+  id,
   helmet,
 }) => {
   const PostContent = contentComponent || Content
+
+  const disqusConfig = {
+    shortname: process.env.GATSBY_DISQUS_NAME,
+    config: { identifier: id, title },
+  }
 
   return (
     <section className="section">
@@ -27,6 +36,7 @@ export const BlogPostTemplate = ({
             </h1>
             <p>{description}</p>
             <PostContent content={content} />
+            <DiscussionEmbed {...disqusConfig} />
             {tags && tags.length ? (
               <div style={{ marginTop: `4rem` }}>
                 <h4>Tags</h4>
@@ -51,6 +61,7 @@ BlogPostTemplate.propTypes = {
   contentComponent: PropTypes.func,
   description: PropTypes.string,
   title: PropTypes.string,
+  id: PropTypes.string,
   helmet: PropTypes.object,
 }
 
@@ -74,6 +85,7 @@ const BlogPost = ({ data }) => {
         }
         tags={post.frontmatter.tags}
         title={post.frontmatter.title}
+        id={post.id}
       />
     </Layout>
   )
