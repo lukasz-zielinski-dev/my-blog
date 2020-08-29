@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "gatsby";
 import styled from "styled-components";
-import { FaGithub, FaYoutube, FaFacebookSquare } from "react-icons/fa";
+import { FaGithubSquare, FaFacebookSquare, FaTwitterSquare, FaInstagramSquare } from "react-icons/fa";
 import { MdRefresh } from "react-icons/md";
 import addToMailchimp from "gatsby-plugin-mailchimp";
 
@@ -56,6 +56,7 @@ const StyledIconWrapper = styled.div`
   display: flex;
   align-items: center;
   color: gray;
+  cursor: pointer;
   &:hover {
     color: ${(props) => props.higlightColor || "palevioletred"};
   }
@@ -92,6 +93,7 @@ const NewsletterSubmitBtnWrapper = styled.input`
   border: 1px solid rgba(0, 160, 140, 1);
   padding: 15px 20px;
   font-weight: bold;
+  cursor: pointer;
 `;
 
 const NewsletterHeaderWrapper = styled.h1`
@@ -101,7 +103,6 @@ const NewsletterHeaderWrapper = styled.h1`
   text-align: center;
   padding: 0 5px;
   font-size: 1.5rem;
-
 `;
 
 const NewsletterFrom = styled.form`
@@ -141,12 +142,10 @@ export default class Footer extends React.Component {
           ) : null}
           {this.state.result?.result === "error" ? (
             <>
-              <NewsletterHeaderWrapper>
-                Wystąpił błąd.
-              </NewsletterHeaderWrapper>
+              <NewsletterHeaderWrapper>Wystąpił błąd.</NewsletterHeaderWrapper>
 
               <StyledIconWrapper
-                higlightColor="blue"
+                higlightColor="#008ca0"
                 onClick={this.refreshForm}
               >
                 <MdRefresh size={32} />
@@ -177,15 +176,42 @@ export default class Footer extends React.Component {
           </CreatedByWrapper>
 
           <LinksWrapper>
-            <StyledIconWrapper higlightColor="black">
-              <FaGithub size={32} />
-            </StyledIconWrapper>
-            <StyledIconWrapper higlightColor="red">
-              <FaYoutube size={32} />
-            </StyledIconWrapper>
-            <StyledIconWrapper higlightColor="blue">
-              <FaFacebookSquare size={32} />
-            </StyledIconWrapper>
+            <a
+              href="https://github.com/lukasz-zielinski-dev"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <StyledIconWrapper higlightColor="#000000">
+                <FaGithubSquare size={32} />
+              </StyledIconWrapper>
+            </a>
+            <a
+              href="https://www.facebook.com/%C5%81ukasz-Zieli%C5%84ski-Blog-110417914120316"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <StyledIconWrapper higlightColor="#4267B2">
+                <FaFacebookSquare size={32} />
+              </StyledIconWrapper>
+            </a>
+            <a
+              href="https://twitter.com/BlogLukasz"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <StyledIconWrapper higlightColor="#1DA1F2">
+                <FaTwitterSquare size={32} />
+              </StyledIconWrapper>
+            </a>
+            <a
+              href="https://www.instagram.com/lukasz_zielinski_blog/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <StyledIconWrapper higlightColor="#E1306C">
+                <FaInstagramSquare size={32} />
+              </StyledIconWrapper>
+            </a>
           </LinksWrapper>
         </FooterWrapper>
       </>
