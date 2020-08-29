@@ -27,7 +27,7 @@ const StyledPhoto = styled.div`
 `;
 
 
-export const AboutPageTemplate = ({
+export const ContactThanksPageTemplate = ({
   title,
   image,
   subtitle,
@@ -78,7 +78,7 @@ export const AboutPageTemplate = ({
   );
 };
 
-AboutPageTemplate.propTypes = {
+ContactThanksPageTemplate.propTypes = {
   title: PropTypes.string.isRequired,
   subtitle: PropTypes.string.isRequired,
   image: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
@@ -90,7 +90,7 @@ const AboutPage = ({ data }) => {
 
   return (
     <Layout>
-      <AboutPageTemplate
+      <ContactThanksPageTemplate
         contentComponent={HTMLContent}
         title={post.frontmatter.title}
         subtitle={post.frontmatter.subtitle}
