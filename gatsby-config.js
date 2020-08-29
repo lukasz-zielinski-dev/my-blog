@@ -1,3 +1,6 @@
+require("dotenv").config({
+  path: `.env.${process.env.NODE_ENV}`,
+});
 module.exports = {
   siteMetadata: {
     title: 'Łukasz Zieliński - Blog',
@@ -57,6 +60,12 @@ module.exports = {
             },
           },
           `gatsby-plugin-styled-components`,
+          {
+            resolve: 'gatsby-plugin-mailchimp',
+            options: {
+                endpoint: process.env.MAILCHIMP_ENDPOINT
+            },
+        },
         ],
       },
     },

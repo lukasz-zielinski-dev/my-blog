@@ -1,117 +1,12 @@
-// import React from 'react'
-// import { Link } from 'gatsby'
-
-// import logo from '../img/logo.svg'
-// import facebook from '../img/social/facebook.svg'
-// import instagram from '../img/social/instagram.svg'
-// import twitter from '../img/social/twitter.svg'
-// import vimeo from '../img/social/vimeo.svg'
-
-// const Footer = class extends React.Component {
-//   render() {
-//     return (
-//       <footer className="footer has-background-black has-text-white-ter">
-//         <div className="content has-text-centered">
-//           <img
-//             src={logo}
-//             alt="Kaldi"
-//             style={{ width: '14em', height: '10em' }}
-//           />
-//         </div>
-//         <div className="content has-text-centered has-background-black has-text-white-ter">
-//           <div className="container has-background-black has-text-white-ter">
-//             <div style={{ maxWidth: '100vw' }} className="columns">
-//               <div className="column is-4">
-//                 <section className="menu">
-//                   <ul className="menu-list">
-//                     <li>
-//                       <Link to="/" className="navbar-item">
-//                         Home
-//                       </Link>
-//                     </li>
-//                     <li>
-//                       <Link className="navbar-item" to="/about">
-//                         About
-//                       </Link>
-//                     </li>
-
-//                     <li>
-//                       <a
-//                         className="navbar-item"
-//                         href="/admin/"
-//                         target="_blank"
-//                         rel="noopener noreferrer"
-//                       >
-//                         Admin
-//                       </a>
-//                     </li>
-//                   </ul>
-//                 </section>
-//               </div>
-//               <div className="column is-4">
-//                 <section>
-//                   <ul className="menu-list">
-//                     <li>
-//                       <Link className="navbar-item" to="/blog">
-//                         Latest Stories
-//                       </Link>
-//                     </li>
-//                     <li>
-//                       <Link className="navbar-item" to="/contact">
-//                         Contact
-//                       </Link>
-//                     </li>
-//                   </ul>
-//                 </section>
-//               </div>
-//               <div className="column is-4 social">
-//                 <a title="facebook" href="https://facebook.com">
-//                   <img
-//                     src={facebook}
-//                     alt="Facebook"
-//                     style={{ width: '1em', height: '1em' }}
-//                   />
-//                 </a>
-//                 <a title="twitter" href="https://twitter.com">
-//                   <img
-//                     className="fas fa-lg"
-//                     src={twitter}
-//                     alt="Twitter"
-//                     style={{ width: '1em', height: '1em' }}
-//                   />
-//                 </a>
-//                 <a title="instagram" href="https://instagram.com">
-//                   <img
-//                     src={instagram}
-//                     alt="Instagram"
-//                     style={{ width: '1em', height: '1em' }}
-//                   />
-//                 </a>
-//                 <a title="vimeo" href="https://vimeo.com">
-//                   <img
-//                     src={vimeo}
-//                     alt="Vimeo"
-//                     style={{ width: '1em', height: '1em' }}
-//                   />
-//                 </a>
-//               </div>
-//             </div>
-//           </div>
-//         </div>
-//       </footer>
-//     )
-//   }
-// }
-
-// export default Footer
-
 import React from "react";
 import { Link } from "gatsby";
 import styled from "styled-components";
 import { FaGithub, FaYoutube, FaFacebookSquare } from "react-icons/fa";
+import { MdRefresh } from "react-icons/md";
+import addToMailchimp from "gatsby-plugin-mailchimp";
 
 const FooterWrapper = styled.div`
-  background-color: rgba(0, 160, 140, 0.5);
+  background-color: rgba(0, 160, 140, 0.4);
   display: flex;
   padding: 5px;
 
@@ -133,8 +28,8 @@ const FooterWrapper = styled.div`
 `;
 
 const CreatedByWrapper = styled.div`
-  @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
-  font-family: 'Roboto', sans-serif;
+  @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+  font-family: "Roboto", sans-serif;
   text-align: center;
   /* Below desktops and laptops ----------- */
   font-size: 1em;
@@ -172,27 +67,128 @@ const StyledIconWrapper = styled.div`
   }
 `;
 
-const Footer = () => (
-  <FooterWrapper>
-    <CreatedByWrapper>Workaround div</CreatedByWrapper>
-    <CreatedByWrapper>
-      © 2020 Created by Łukasz Zieliński.
-    </CreatedByWrapper>
+const NewsletterWrapper = styled.div`
+  background-color: rgba(0, 160, 140, 0.1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 15px;
 
+  border-top: 2px solid rgba(0, 160, 140, 1);
+`;
 
+const NewsletterEmailInput = styled.input`
+  width: 100%;
+  float: left;
+  padding: 15px 20px;
+  text-align: center;
+  outline: 0;
+  min-width: 30vw;
+`;
 
-    <LinksWrapper>
-      <StyledIconWrapper higlightColor="black">
-        <FaGithub size={32} />
-      </StyledIconWrapper>
-      <StyledIconWrapper higlightColor="red">
-        <FaYoutube size={32} />
-      </StyledIconWrapper>
-      <StyledIconWrapper higlightColor="blue">
-        <FaFacebookSquare size={32} />
-      </StyledIconWrapper>
-    </LinksWrapper>
-  </FooterWrapper>
-);
+const NewsletterSubmitBtnWrapper = styled.input`
+  background-color: rgba(0, 160, 140, 1);
+  color: white;
+  border: 1px solid rgba(0, 160, 140, 1);
+  padding: 15px 20px;
+  font-weight: bold;
+`;
 
-export default Footer;
+const NewsletterHeaderWrapper = styled.h1`
+  line-height: 130%;
+  letter-spacing: 0.07rem;
+
+  text-align: center;
+  padding: 0 5px;
+  font-size: 1.5rem;
+
+`;
+
+const NewsletterFrom = styled.form`
+  display: flex;
+
+  font-family: inherit;
+  font-size: 1.1rem;
+  letter-spacing: 0.05rem;
+  margin-top: 15px;
+`;
+
+export default class Footer extends React.Component {
+  constructor() {
+    super();
+    this.state = { email: "", result: null };
+  }
+  _handleSubmit = async (e) => {
+    e.preventDefault();
+    const result = await addToMailchimp(this.state.email);
+    this.setState({ result: result });
+  };
+  handleChange = (event) => {
+    this.setState({ email: event.target.value });
+  };
+  refreshForm = () => {
+    this.setState({ result: null });
+  };
+
+  render() {
+    return (
+      <>
+        <NewsletterWrapper>
+          {this.state.result?.result === "success" ? (
+            <NewsletterHeaderWrapper>
+              Pomyślnie zapisano {this.state.email} do newslettera.
+            </NewsletterHeaderWrapper>
+          ) : null}
+          {this.state.result?.result === "error" ? (
+            <>
+              <NewsletterHeaderWrapper>
+                Wystąpił błąd.
+              </NewsletterHeaderWrapper>
+
+              <StyledIconWrapper
+                higlightColor="blue"
+                onClick={this.refreshForm}
+              >
+                <MdRefresh size={32} />
+              </StyledIconWrapper>
+            </>
+          ) : null}
+          {!this.state.result ? (
+            <div className="subscribe">
+              <NewsletterHeaderWrapper>
+                Dołącz do newslettera.
+              </NewsletterHeaderWrapper>
+
+              <NewsletterFrom onSubmit={this._handleSubmit}>
+                <NewsletterEmailInput
+                  type="email"
+                  placeholder="Twój adres email"
+                  onChange={this.handleChange}
+                />
+                <NewsletterSubmitBtnWrapper type="submit" value="Subskrybuj" />
+              </NewsletterFrom>
+            </div>
+          ) : null}
+        </NewsletterWrapper>
+        <FooterWrapper>
+          <CreatedByWrapper>Workaround div</CreatedByWrapper>
+          <CreatedByWrapper>
+            © 2020 Created by Łukasz Zieliński.
+          </CreatedByWrapper>
+
+          <LinksWrapper>
+            <StyledIconWrapper higlightColor="black">
+              <FaGithub size={32} />
+            </StyledIconWrapper>
+            <StyledIconWrapper higlightColor="red">
+              <FaYoutube size={32} />
+            </StyledIconWrapper>
+            <StyledIconWrapper higlightColor="blue">
+              <FaFacebookSquare size={32} />
+            </StyledIconWrapper>
+          </LinksWrapper>
+        </FooterWrapper>
+      </>
+    );
+  }
+}
