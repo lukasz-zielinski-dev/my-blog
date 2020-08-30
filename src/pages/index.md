@@ -23,7 +23,7 @@ intro:
         treningowo-dietetyczne zebrane w formie serii wpisów relacjonujących
         postępy i wyniki.
     - image: /img/undraw_home_cinema_l7yl.png
-      text: Książki, filmy, kanały YT, podcasty i muzyka. Raczej rozrywkowo, ale możne
+      text: Książki, filmy, kanały YT, podcasty i muzyka. Raczej rozrywkowo, ale może
         zdarzyć się coś zahaczającego o tematy techniczne, treningowe i
         dietetyczne.
 ---
