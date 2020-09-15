@@ -17,6 +17,8 @@ tags:
   - ssr
   - generatory stron stycznych
 ---
+![](https://lh3.googleusercontent.com/cXr_P41j6Q5StyYc626Q9kQHPU27KbL5q7B_g7vIghqf62PEte03pHYDpiBhcUCe6Hg1n1gB618TlW00uEeqnrYIfE0PYvrHLJHnoWagUf7KvE4Ac7ZhySwRUPHGmKLMtqZlDTJg)
+
 Tworząc stronę internetową należy zastanowić się nie tylko nad tym jakie treści na niej zostaną umieszczone, ale również w jaki sposób będą one dostarczane użytkownikowi. Może wydawać się, że tego typu kwestie techniczne to sprawa drugorzędna, jednak wpływają one na dwa istotne aspekty:
 
 1. **Pozycjonowanie w wynikach wyszukiwania.**\
