@@ -15,15 +15,15 @@ tags:
   - seo
   - csr
   - ssr
-  - generatory stron stycznych
+  - generatory stron statycznych
 ---
 ![](https://lh3.googleusercontent.com/cXr_P41j6Q5StyYc626Q9kQHPU27KbL5q7B_g7vIghqf62PEte03pHYDpiBhcUCe6Hg1n1gB618TlW00uEeqnrYIfE0PYvrHLJHnoWagUf7KvE4Ac7ZhySwRUPHGmKLMtqZlDTJg)
 
 Tworząc stronę internetową należy zastanowić się nie tylko nad tym jakie treści na niej zostaną umieszczone, ale również w jaki sposób będą one dostarczane użytkownikowi. Może wydawać się, że tego typu kwestie techniczne to sprawa drugorzędna, jednak wpływają one na dwa istotne aspekty:
 
 1. **Pozycjonowanie w wynikach wyszukiwania.**\
-   Optymalizowanie pod względem pozycjonowania w wynikach wyszukiwania (**SEO**) jest tematem bardzo szerokim i szczerze mówiąc brakuje mi obecnie kompetencji by dokładniej go omówić. Opiera się ono jednak na prostych mechanizmach, które można szybko zrozumieć i przynajmniej częściowo wykorzystać w celu poprawy zasięgu swojej strony. Aby dana strona miała szansę pojawić się w wynikach wyszukiwania musi zostać najpierw zeskanowana przez **crawler** (program, który systematycznie odwiedza dostępne w sieci adresy i analizuje ich treści). Następnie na podstawie parametrów takich jak:
 
+Optymalizowanie pod względem pozycjonowania w wynikach wyszukiwania (**SEO**) jest tematem bardzo szerokim i szczerze mówiąc brakuje mi obecnie kompetencji by dokładniej go omówić. Opiera się ono jednak na prostych mechanizmach, które można szybko zrozumieć i przynajmniej częściowo wykorzystać w celu poprawy zasięgu swojej strony. Aby dana strona miała szansę pojawić się w wynikach wyszukiwania musi zostać najpierw zeskanowana przez **crawler** (program, który systematycznie odwiedza dostępne w sieci adresy i analizuje ich treści). Następnie na podstawie parametrów takich jak:
 * Treść
 * Szybkość
 * Przystosowane do urządzeń mobilnych
@@ -34,7 +34,8 @@ Strona uzyskuje **zbiór haseł** - słów kluczowych po wpisaniu, których ma s
 Istnieją narzędzia pozwalające na wykonanie **audytu strony** i zidentyfikowanie obszarów wymagających poprawy - przykładem może być zintegrowany od pewnego czasu w Google DevTools - **Lighthouse**.
 
 2. **Doświadczenia użytkownika (UX) na stronie (szczególnie przy pierwszym jej załadowaniu)**\
-   Analizując doświadczenia użytkownika strony internetowej należy brać pod uwagę zarówno całą planowaną przez dewelopera ścieżkę, jak i **kilka pierwszych (najważniejszych) sekund**. To właśnie te kilka pierwszych sekund może zdecydować, czy użytkownik zostanie na stronie, czy opuści ją zanim dotrze do głównej treści. Dlatego należy starać się, aby pierwsze załadowanie strony wymagało pobrania jak najmniejszej paczki zasobów. Dalsza optymalizacja może odbywać się w oparciu o zebrane przy pomocy narzędzi do analizy informacje średniej o **głębokości sesji** (ilości stron odwiedzonych przez użytkownika podczas jednej sesji).
+
+Analizując doświadczenia użytkownika strony internetowej należy brać pod uwagę zarówno całą planowaną przez dewelopera ścieżkę, jak i **kilka pierwszych (najważniejszych) sekund**. To właśnie te kilka pierwszych sekund może zdecydować, czy użytkownik zostanie na stronie, czy opuści ją zanim dotrze do głównej treści. Dlatego należy starać się, aby pierwsze załadowanie strony wymagało pobrania jak najmniejszej paczki zasobów. Dalsza optymalizacja może odbywać się w oparciu o zebrane przy pomocy narzędzi do analizy informacje średniej o **głębokości sesji** (ilości stron odwiedzonych przez użytkownika podczas jednej sesji).
 
 Istnieje wiele sposobów działania stron i aplikacji internetowych. W tym poście skupię się na nowoczesnych rozwiązaniach opartych o popularne frameworki frontendowe takie jak np. React, Angular, czy Vue. Większość tego typu narzędzi pozwala na korzystanie z różnych podejść do dostarczania treści użytkownikowi. Wśród najpopularniejszych z nich znajdują się:
 
