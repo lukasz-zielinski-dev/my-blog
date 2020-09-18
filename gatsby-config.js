@@ -3,50 +3,49 @@ require("dotenv").config({
 });
 module.exports = {
   siteMetadata: {
-    siteUrl: `https://lukasz-zielinski.pl`,
-    title: "Łukasz Zieliński - Blog",
+    title: 'Łukasz Zieliński - Blog',
     description:
-      "Strona zawiera wpisy dotyczące programowania, zdrowego stylu życia i rozrywki.",
+      'Strona zawiera wpisy dotyczące programowania, zdrowego stylu życia i rozrywki.',
   },
   plugins: [
-    "gatsby-plugin-react-helmet",
-    "gatsby-plugin-sass",
+    'gatsby-plugin-react-helmet',
+    'gatsby-plugin-sass',
     {
       // keep as first gatsby-source-filesystem plugin for gatsby image support
-      resolve: "gatsby-source-filesystem",
+      resolve: 'gatsby-source-filesystem',
       options: {
         path: `${__dirname}/static/img`,
-        name: "uploads",
+        name: 'uploads',
       },
     },
     {
-      resolve: "gatsby-source-filesystem",
+      resolve: 'gatsby-source-filesystem',
       options: {
         path: `${__dirname}/src/pages`,
-        name: "pages",
+        name: 'pages',
       },
     },
     {
-      resolve: "gatsby-source-filesystem",
+      resolve: 'gatsby-source-filesystem',
       options: {
         path: `${__dirname}/src/img`,
-        name: "images",
+        name: 'images',
       },
     },
-    "gatsby-plugin-sharp",
-    "gatsby-transformer-sharp",
+    'gatsby-plugin-sharp',
+    'gatsby-transformer-sharp',
     {
-      resolve: "gatsby-transformer-remark",
+      resolve: 'gatsby-transformer-remark',
       options: {
         plugins: [
           {
-            resolve: "gatsby-remark-relative-images",
+            resolve: 'gatsby-remark-relative-images',
             options: {
-              name: "uploads",
+              name: 'uploads',
             },
           },
           {
-            resolve: "gatsby-remark-images",
+            resolve: 'gatsby-remark-images',
             options: {
               // It's important to specify the maxWidth (in pixels) of
               // the content container as this plugin uses this as the
@@ -55,16 +54,16 @@ module.exports = {
             },
           },
           {
-            resolve: "gatsby-remark-copy-linked-files",
+            resolve: 'gatsby-remark-copy-linked-files',
             options: {
-              destinationDir: "static",
+              destinationDir: 'static',
             },
           },
           `gatsby-plugin-styled-components`,
           {
-            resolve: "gatsby-plugin-mailchimp",
+            resolve: 'gatsby-plugin-mailchimp',
             options: {
-              endpoint: process.env.MAILCHIMP_ENDPOINT,
+                endpoint: process.env.MAILCHIMP_ENDPOINT
             },
           },
           {
@@ -74,42 +73,19 @@ module.exports = {
         ],
       },
     },
-    
     {
-      resolve: "gatsby-plugin-netlify-cms",
+      resolve: 'gatsby-plugin-netlify-cms',
       options: {
         modulePath: `${__dirname}/src/cms/cms.js`,
       },
     },
     {
-      resolve: "gatsby-plugin-purgecss", // purges all unused/unreferenced css rules
+      resolve: 'gatsby-plugin-purgecss', // purges all unused/unreferenced css rules
       options: {
         develop: true, // Activates purging in npm run develop
-        purgeOnly: ["/all.sass"], // applies purging only on the bulma css file
+        purgeOnly: ['/all.sass'], // applies purging only on the bulma css file
       },
     }, // must be after other CSS plugins
-    `gatsby-plugin-sitemap`,
-    {
-      resolve: `gatsby-plugin-netlify`,
-      options: {
-        headers: {
-          "/public/**/*.html": [
-            "cache-control: public",
-            "cache-control:  max-age=0",
-            "cache-control: must-revalidate",
-          ],
-          "/sw.js": [
-            "cache-control: public",
-            "cache-control:  max-age=0",
-            "cache-control: must-revalidate",
-          ],
-          "/public/page-data/*": [
-            "cache-control: public",
-            "cache-control:  max-age=0",
-            "cache-control: must-revalidate",
-          ],
-        },
-      },
-    }, // make sure to keep it last in the array
+    'gatsby-plugin-netlify', // make sure to keep it last in the array
   ],
-};
+}

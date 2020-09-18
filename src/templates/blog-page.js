@@ -4,8 +4,6 @@ import { Link, graphql } from "gatsby";
 import PreviewCompatibleImage from '../components/PreviewCompatibleImage'
 
 import Layout from "../components/Layout";
-import Features from "../components/Features";
-import BlogRoll from "../components/BlogRoll";
 import styled from "styled-components";
 
 const JustifiedContent = styled.p`
