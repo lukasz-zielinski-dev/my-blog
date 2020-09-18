@@ -24,7 +24,6 @@ Tworząc stronę internetową należy zastanowić się nie tylko nad tym jakie t
 1. **Pozycjonowanie w wynikach wyszukiwania.**\
    Optymalizowanie pod względem pozycjonowania w wynikach wyszukiwania (**SEO**) jest tematem bardzo szerokim i szczerze mówiąc brakuje mi obecnie kompetencji by dokładniej go omówić. Opiera się ono jednak na prostych mechanizmach, które można szybko zrozumieć i przynajmniej częściowo wykorzystać w celu poprawy zasięgu swojej strony. Aby dana strona miała szansę pojawić się w wynikach wyszukiwania musi zostać najpierw zeskanowana przez **crawler** (program, który systematycznie odwiedza dostępne w sieci adresy i analizuje ich treści). Następnie na podstawie parametrów takich jak:
 
-
 * Treść
 * Szybkość
 * Przystosowane do urządzeń mobilnych
