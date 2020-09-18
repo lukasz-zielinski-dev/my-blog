@@ -15,7 +15,7 @@ tags:
   - seo
   - csr
   - ssr
-  - generatory stron stycznych
+  - generatory stron statycznych
 ---
 ![](https://lh3.googleusercontent.com/cXr_P41j6Q5StyYc626Q9kQHPU27KbL5q7B_g7vIghqf62PEte03pHYDpiBhcUCe6Hg1n1gB618TlW00uEeqnrYIfE0PYvrHLJHnoWagUf7KvE4Ac7ZhySwRUPHGmKLMtqZlDTJg)
 
