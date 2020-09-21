@@ -36,6 +36,11 @@ const PostBody = styled.div`
     max-width: 800px;
     margin: 0 auto;
   }
+  & > div > blockquote {
+    border-left: 10px solid rgba(0, 160, 140, 0.75);
+    padding: 10px;
+    background-color: rgba(0, 160, 140, 0.1);
+  }
 `;
 
 export const BlogPostTemplate = ({
