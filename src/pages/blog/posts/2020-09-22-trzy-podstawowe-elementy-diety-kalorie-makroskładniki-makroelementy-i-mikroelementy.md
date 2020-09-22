@@ -26,7 +26,7 @@ Z doświadczenia wiem, że dla osoby, która wcześniej nie interesowała się t
 
 > **Zasada Pareto** wywodzi się z teorii zarządzania, jednak znajduje ona odzwierciedlenie w wielu dziedzinach życia. W kontekście podchodzenia do zmiany stylu życia (w tym diety) można przedstawić ją w taki sposób:
 >
-> *“Podjęcie **20% wysiłków** mających na celu zmianę diety pozwala czerpać **80% korzyści** możliwych do uzyskania ze zmiany diety“*
+> *Podjęcie **20% wysiłków** mających na celu zmianę diety pozwala czerpać **80% korzyści** możliwych do uzyskania ze zmiany diety*
 >
 > Ważne jednak jest to, aby te 20% podjętych wysiłków skupiały się na **najważniejszych** aspektach.
 
@@ -53,7 +53,7 @@ Przyjmuje się, że dzienne zapotrzebowanie dla osoby o **średnim poziomie akty
 >
 > Jeżeli w danym okresie waga pozostanie **bez zmian** to prawdopodobnie nasze zapotrzebowanie jest bardzo **zbliżone do konsumowanych kalorii**. W przypadku zauważania zmian w masie ciała można przyjąć, że nasze zero kaloryczne jest **mniejsze** (w przypadku, gdy podczas testu zyskaliśmy na wadze), lub **większe** (w przypadku, gdy podczas testu straciliśmy na wadze) o około:
 >
-> > 7000 * (zmiana masy ciała) / (długość okresu obserwacji) \[kcal/dzień]
+> > 7000 * (zmiana masy ciała w kilogramach) / (długość okresu obserwacji w dniach) \[kcal/dzień]
 >
 > w stosunku do prowadzonej przez okres obserwacji diety.
 
@@ -126,15 +126,27 @@ W przypadku nadwyżki kalorycznej będzie następowało **zwiększenie masy cia�
 >
 >
 >
+> \---
+>
+>
+>
 > Białko (ilość): 2 * 75 = 150 \[g]
 >
 > Białko (kaloryczność): 150 * 4 = 600 \[kcal]
 >
 >
 >
+> \---
+>
+>
+>
 > Tłuszcze (ilość): 1 * 75 = 75 \[g]
 >
 > Tłuszcze (kaloryczność): 75 * 9 = 675 \[kcal]
+>
+>
+>
+> \---
 >
 >
 >
