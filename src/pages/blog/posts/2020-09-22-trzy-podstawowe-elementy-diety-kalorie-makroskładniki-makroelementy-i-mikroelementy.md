@@ -7,7 +7,7 @@ description: Prowadzanie zdrowej, zbilansowanej diety, która dodatkowo pozwala
   nam kształtować sylwetkę zgodnie z naszymi oczekiwaniami może wydawać się
   trudne. Tak na prawdę na początku wystarczy poznać i zacząć stosować kilka
   prostych zasad, a rezultaty będą kwestią czasu.
-featuredpost: true
+featuredpost: false
 featuredimage: /img/blog-2020.09.22-01-title.png
 tags:
   - zdrowy styl życia
