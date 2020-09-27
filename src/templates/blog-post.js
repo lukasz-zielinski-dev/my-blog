@@ -18,11 +18,9 @@ const PostContainer = styled.div`
   text-justify: inter-word;
 `;
 
-const PostTitle = styled.h1`
-`;
+const PostTitle = styled.h1``;
 
-const PostDescription = styled.p`
-`;
+const PostDescription = styled.p``;
 
 const PostHeader = styled.div`
   @media only screen and (min-width: 1224px) {
@@ -40,6 +38,10 @@ const PostBody = styled.div`
     border-left: 10px solid rgba(0, 160, 140, 0.75);
     padding: 10px;
     background-color: rgba(0, 160, 140, 0.1);
+  }
+
+  & > div > p > img {
+    width: 100%;
   }
 `;
 
@@ -63,31 +65,29 @@ export const BlogPostTemplate = ({
     <section className="section">
       {helmet || ""}
       <div className="container content">
-          <PostContainer>
-            <PostHeader>
-            <PostTitle>
-              {title}
-            </PostTitle>
+        <PostContainer>
+          <PostHeader>
+            <PostTitle>{title}</PostTitle>
             <PostDescription>{description}</PostDescription>
-            </PostHeader>
-            
-            <PostBody>
-              <PostContent content={content} />
-              <DiscussionEmbed {...disqusConfig} />
-              {tags && tags.length ? (
-                <div style={{ marginTop: `4rem` }}>
-                  <h4>Tagi</h4>
-                  <ul className="taglist">
-                    {tags.map((tag) => (
-                      <li key={tag + `tag`}>
-                        <Link to={`/tags/${kebabCase(tag)}/`}>{tag}</Link>
-                      </li>
-                    ))}
-                  </ul>
-                </div>
-              ) : null}
-            </PostBody>
-          </PostContainer>
+          </PostHeader>
+
+          <PostBody>
+            <PostContent content={content} />
+            <DiscussionEmbed {...disqusConfig} />
+            {tags && tags.length ? (
+              <div style={{ marginTop: `4rem` }}>
+                <h4>Tagi</h4>
+                <ul className="taglist">
+                  {tags.map((tag) => (
+                    <li key={tag + `tag`}>
+                      <Link to={`/tags/${kebabCase(tag)}/`}>{tag}</Link>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            ) : null}
+          </PostBody>
+        </PostContainer>
       </div>
     </section>
   );
