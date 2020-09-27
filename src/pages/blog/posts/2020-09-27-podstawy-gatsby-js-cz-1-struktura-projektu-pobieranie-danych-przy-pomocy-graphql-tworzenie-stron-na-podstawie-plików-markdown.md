@@ -1,6 +1,6 @@
 ---
 templateKey: blog-post
-title: Podstawy Gatsby.js cz.1 - struktura projektu, pobieranie danych przy
+title: Podstawy Gatsby.js cz. 1 - struktura projektu, pobieranie danych przy
   pomocy GraphQL, tworzenie stron na podstawie plików markdown.
 date: 2020-09-27T13:00:00.000Z
 description: Jak stworzyć pierwszy projekt w Gatsby.js? Jak poruszać się po
