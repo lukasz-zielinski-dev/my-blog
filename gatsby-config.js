@@ -67,6 +67,10 @@ module.exports = {
               endpoint: process.env.MAILCHIMP_ENDPOINT,
             },
           },
+          {
+            resolve: `gatsby-remark-prismjs`,
+            options: {},
+          },
         ],
       },
     },
