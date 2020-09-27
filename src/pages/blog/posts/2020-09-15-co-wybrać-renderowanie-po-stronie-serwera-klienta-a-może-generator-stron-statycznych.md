@@ -7,7 +7,7 @@ description: Aktualnie dostępne narzędzia do tworzenie stron i aplikacji
   internetowych pozwalają nam wybrać z pośród kilku metod dostarczania treści do
   użytkownika. Jakie są najpopularniejsze metody,  czym się różnią, jakie są ich
   zalety i wady?
-featuredpost: true
+featuredpost: false
 featuredimage: /img/blog-01-title.png
 tags:
   - programowanie
