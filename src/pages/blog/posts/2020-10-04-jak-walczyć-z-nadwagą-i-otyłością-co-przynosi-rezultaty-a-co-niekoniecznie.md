@@ -36,7 +36,7 @@ Samo schudnięcie wymaga spełnienia tylko jednego warunku - **wytworzenia defic
 * **Picie wody.** Poza tym, że dbanie o odpowiednie nawodnienie organizmu jest niezwykle istotne, to picie wody pozwala na pewien czas wypełnić żołądek i na chwilę oszukać organizm. W przypadku wody gazowanej (lub innych napoi) efekt ten może być silniejszy, jednak należy pamiętać o tym, żeby unikać napoi z cukrem.
 * **Picie czarnej kawy, lub innych napojów kofeinowych bez cukru** - kofeina oprócz właściwości pobudzających pozwala też na pewien czas zmniejszyć odczuwanie głodu.
 * **Jedzenie warzyw i owoców** - oprócz bycia magazynami mikro i makroelementów owoce i warzywa cechują się wysoką zawartością błonnika. Błonnik korzystnie wpływa na procesy trawienne i pracę jelit. Dodatkowo spowalnia on wchłanianie cukrów, przez co po zjedzeniu owocu poziom cukru w naszej krwi nie powinien wahać się tak jak po wypiciu soku owocowego, dodatkowo powinniśmy przez dłuższy czas odczuwać sytość.
-* **Dbanie o sytość posiłków** - pomocny może okazać się tu **indeks sytości**. Jest to wyznaczony eksperymentalnie wskaźnik mówiący o stopniu sytości uzyskanym po spożyciu 240 kcal danego pokarmu. Punktem odniesienia jest tu białe pieczywo, które posiada wartość indeksu sytości na poziomie 100%. Najkorzystniej wypadają w tym zestawieniu gotowanie ziemniaki, które uzyskały wynik aż 323%, natomiast najgorzej Croissanty z wynikiem 47%.
+* **Dbanie o sytość posiłków** - pomocny może okazać się tu **indeks sytości**. Jest to wyznaczony eksperymentalnie wskaźnik mówiący o stopniu sytości uzyskanym po spożyciu 240 kcal danego pokarmu. Punktem odniesienia jest tu białe pieczywo, które posiada wartość indeksu sytości na poziomie 100%. Najkorzystniej wypadają w tym zestawieniu gotowane ziemniaki, które uzyskały wynik aż 323%, natomiast najgorzej Croissanty z wynikiem 47%.
 * **Odpowiednia ilość snu i unikanie stresu.** Podczas przebywania na deficycie kalorycznym dostarczamy organizmowi stresu. W związku z czym podnosimy poziom kortyzolu we krwi. Niewystarczająca ilość snu oraz inne zewnętrzne czynniki stresujące niepotrzebnie będą ten stan pogłębiały. Ilość snu podczas redukcji może wpływać na stosunek spalonego tłuszczu do spalonej tkanki mięśniowej. Dodatkowo wysoki poziom utrzymującego się stresu spowoduje, że będziemy znacznie bardziej podatni na pojawienie się **głodu emocjonalnego**.
 
 Podczas przebywania na przedłużającym się deficycie kalorycznym czasami nieuniknione będzie odczuwanie głodu. Warto zauważyć, że to uczucie może mieć podstawy fizjologiczne, lub emocjonalne. O ile na pierwszy rzut oka oba typy głodu wydają się podobne, to stosunkowo łatwo je odróżnić analizują kilka aspektów takich jak:
@@ -67,7 +67,7 @@ Ostatecznie należy pamiętać, że ważniejsze od szybkich rezultatów jest wyp
 
 Źródła:
 
-* Nadwaga i otyłość statystyki - <https://www.nfz.gov.pl/aktualnosci/aktualnosci-centrali/otylosc-choroba-wagi-ciezkiej,7355.html>
-* Głód fizjologiczny i emocjonalny - <https://www.centrumdobrejterapii.pl/materialy/jak-odroznic-glod-emocjonalny-od-glodu-fizjologicznego/>
-* NEAT - <https://pubmed.ncbi.nlm.nih.gov/12468415/>
-* Indeks sytości - <http://ernaehrungsdenkwerkstatt.de/fileadmin/user_upload/EDWText/TextElemente/Ernaehrungswissenschaft/Naehrstoffe/Saettigung_Lebensmittel_Satiety_Index.pdf>
+* [Nadwaga i otyłość statystyki](https://www.nfz.gov.pl/aktualnosci/aktualnosci-centrali/otylosc-choroba-wagi-ciezkiej,7355.html) - <https://www.nfz.gov.pl/aktualnosci/aktualnosci-centrali/otylosc-choroba-wagi-ciezkiej,7355.html>
+* [Głód fizjologiczny i emocjonalny](https://www.centrumdobrejterapii.pl/materialy/jak-odroznic-glod-emocjonalny-od-glodu-fizjologicznego)
+* [NEAT](https://pubmed.ncbi.nlm.nih.gov/12468415)
+* [Indeks sytości](http://ernaehrungsdenkwerkstatt.de/fileadmin/user_upload/EDWText/TextElemente/Ernaehrungswissenschaft/Naehrstoffe/Saettigung_Lebensmittel_Satiety_Index.pdf)
