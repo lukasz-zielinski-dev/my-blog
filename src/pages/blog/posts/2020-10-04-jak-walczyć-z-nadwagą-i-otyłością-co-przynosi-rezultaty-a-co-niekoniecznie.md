@@ -67,7 +67,7 @@ Ostatecznie należy pamiętać, że ważniejsze od szybkich rezultatów jest wyp
 
 Źródła:
 
-* [Nadwaga i otyłość statystyki](https://www.nfz.gov.pl/aktualnosci/aktualnosci-centrali/otylosc-choroba-wagi-ciezkiej,7355.html) - <https://www.nfz.gov.pl/aktualnosci/aktualnosci-centrali/otylosc-choroba-wagi-ciezkiej,7355.html>
+* [Nadwaga i otyłość statystyki](https://www.nfz.gov.pl/aktualnosci/aktualnosci-centrali/otylosc-choroba-wagi-ciezkiej,7355.html)
 * [Głód fizjologiczny i emocjonalny](https://www.centrumdobrejterapii.pl/materialy/jak-odroznic-glod-emocjonalny-od-glodu-fizjologicznego)
 * [NEAT](https://pubmed.ncbi.nlm.nih.gov/12468415)
 * [Indeks sytości](http://ernaehrungsdenkwerkstatt.de/fileadmin/user_upload/EDWText/TextElemente/Ernaehrungswissenschaft/Naehrstoffe/Saettigung_Lebensmittel_Satiety_Index.pdf)
