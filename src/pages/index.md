@@ -12,8 +12,7 @@ intro:
   blurbs:
     - image: /img/undraw_programming_2svr.png
       text: Technologie i zagadnienia związane z programowaniem. Na początku planuję
-        skupić się na front-endzie. W przyszłości nie wykluczam innych
-        zagadnień.
+        skupić się na frontendzie. W przyszłości nie wykluczam innych zagadnień.
     - image: /img/undraw_healthy_habit_bh5w.png
       text: >
         Zagadnienie związane ze zdrowym (ale bez przesady...) odżywianiem,
