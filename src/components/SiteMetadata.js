@@ -9,6 +9,7 @@ const useSiteMetadata = () => {
             title
             description
             siteUrl
+            fbAppId
           }
         }
       }

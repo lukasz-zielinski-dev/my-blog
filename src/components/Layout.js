@@ -85,7 +85,7 @@ const TemplateWrapper = ({ children }) => {
         <meta property="og:url" content="/" />
         <meta
           property="og:image"
-          content={`${withPrefix("/")}img/og-image.jpg`}
+          content={`${useSiteMetadata().siteUrl}/img/safari-pinned-tab.svg`}
         />
       </Helmet>
       <GlobalStyles />

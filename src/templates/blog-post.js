@@ -115,15 +115,11 @@ const BlogPost = ({ data }) => {
         helmet={
           <Helmet titleTemplate="%s | Blog">
             <title>{`${post.frontmatter.title}`}</title>
-            <meta
-              name="description"
-              content={`${post.frontmatter.description}`}
-            />
-            {console.log(post)}
-            <meta name="og:title" content={post.frontmatter.title} />
-            <meta name="og:image" content={`${useSiteMetadata().siteUrl}${post.frontmatter.featuredimage.childImageSharp.fluid.src}`} />
-            <meta name="og:description" content={post.frontmatter.description} />
-            <meta name="twitter:image" content={`${useSiteMetadata().siteUrl}${post.frontmatter.featuredimage.childImageSharp.fluid.src}`} />
+            <meta property="og:title" content={post.frontmatter.title} />
+            <meta property="og:image" content={`${useSiteMetadata().siteUrl}${post.frontmatter.featuredimage.childImageSharp.fluid.src}`} />
+            <meta property="og:description" content={post.frontmatter.description} />
+            <meta property="fb:app_id" content={useSiteMetadata().fbAppId} />
+            <meta property="twitter:image" content={`${useSiteMetadata().fbAppId}${post.frontmatter.featuredimage.childImageSharp.fluid.src}`} />
           </Helmet>
         }
         tags={post.frontmatter.tags}

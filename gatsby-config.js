@@ -7,6 +7,7 @@ module.exports = {
     description:
       'Strona zawiera wpisy dotyczące programowania, zdrowego stylu życia i rozrywki.',
     siteUrl: 'https://lukasz-zielinski.pl',
+    fbAppId: '381110196378840',
   },
   plugins: [
     'gatsby-plugin-react-helmet',
