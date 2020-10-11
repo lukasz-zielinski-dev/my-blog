@@ -7,6 +7,7 @@ import Layout from "../components/Layout";
 import Content, { HTMLContent } from "../components/Content";
 import { DiscussionEmbed } from "disqus-react";
 import styled from "styled-components";
+import useSiteMetadata from "../components/SiteMetadata";
 
 const PostContainer = styled.div`
   display: flex;
@@ -120,9 +121,9 @@ const BlogPost = ({ data }) => {
             />
             {console.log(post)}
             <meta name="og:title" content={post.frontmatter.title} />
-            <meta name="og:image" content={post.frontmatter.featuredimage.childImageSharp.fluid.src} />
+            <meta name="og:image" content={`${useSiteMetadata().siteUrl}${post.frontmatter.featuredimage.childImageSharp.fluid.src}`} />
             <meta name="og:description" content={post.frontmatter.description} />
-            <meta name="twitter:image" content={post.frontmatter.featuredimage.childImageSharp.fluid.src} />
+            <meta name="twitter:image" content={`${useSiteMetadata().siteUrl}${post.frontmatter.featuredimage.childImageSharp.fluid.src}`} />
           </Helmet>
         }
         tags={post.frontmatter.tags}

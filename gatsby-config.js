@@ -6,6 +6,7 @@ module.exports = {
     title: 'Łukasz Zieliński - Blog',
     description:
       'Strona zawiera wpisy dotyczące programowania, zdrowego stylu życia i rozrywki.',
+    siteUrl: 'https://lukasz-zielinski.pl',
   },
   plugins: [
     'gatsby-plugin-react-helmet',
