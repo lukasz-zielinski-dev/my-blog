@@ -118,10 +118,11 @@ const BlogPost = ({ data }) => {
               name="description"
               content={`${post.frontmatter.description}`}
             />
+            {console.log(post)}
             <meta name="og:title" content={post.frontmatter.title} />
-            <meta name="og:image" content={post.frontmatter.featuredimage} />
+            <meta name="og:image" content={post.frontmatter.featuredimage.childImageSharp.fluid.src} />
             <meta name="og:description" content={post.frontmatter.description} />
-            <meta name="twitter:image" content={post.frontmatter.featuredimage} />
+            <meta name="twitter:image" content={post.frontmatter.featuredimage.childImageSharp.fluid.src} />
           </Helmet>
         }
         tags={post.frontmatter.tags}
@@ -150,7 +151,13 @@ export const pageQuery = graphql`
         title
         description
         tags
-        featuredimage
+        featuredimage{
+          childImageSharp {
+            fluid(maxWidth: 540, quality: 100) {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }
       }
     }
   }

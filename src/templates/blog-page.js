@@ -96,7 +96,6 @@ BlogPageTemplate.propTypes = {
 const BlogPage = ({ data }) => {
   const frontmatter = data.BlogPageTemplate.frontmatter;
   const edges = data.PreviewCards.edges;
-  console.log(edges);
   return (
     <Layout>
       <BlogPageTemplate
