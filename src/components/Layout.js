@@ -45,7 +45,7 @@ const TemplateWrapper = ({ children }) => {
   return (
     <StyledLayoutWrapper>
       <Helmet>
-        <html lang="en" />
+        <html lang="pl" />
         <title>{title}</title>
         <meta name="description" content={description} />
 
