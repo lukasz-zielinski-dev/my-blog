@@ -119,7 +119,7 @@ const BlogPost = ({ data }) => {
             <meta property="og:image" content={`${useSiteMetadata().siteUrl}${post.frontmatter.featuredimage.childImageSharp.fluid.src}`} />
             <meta property="og:description" content={post.frontmatter.description} />
             <meta property="fb:app_id" content={useSiteMetadata().fbAppId} />
-            <meta property="twitter:image" content={`${useSiteMetadata().fbAppId}${post.frontmatter.featuredimage.childImageSharp.fluid.src}`} />
+            <meta name="twitter:image" content={`${useSiteMetadata().fbAppId}${post.frontmatter.featuredimage.childImageSharp.fluid.src}`} />
           </Helmet>
         }
         tags={post.frontmatter.tags}
