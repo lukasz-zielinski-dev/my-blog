@@ -6,7 +6,7 @@ date: 2020-09-27T13:00:00.000Z
 description: Jak stworzyć pierwszy projekt w Gatsby.js? Jak poruszać się po
   strukturze projektu, korzystać z narzędzi znanych z React.js i plugów
   Gatsbt.js w celu stworzenia strony pobierającej dane z plików markdown?
-featuredpost: true
+featuredpost: false
 featuredimage: /img/blog-2020.09.27-00.png
 tags:
   - generatory stron statycznych
