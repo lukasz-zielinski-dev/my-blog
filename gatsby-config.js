@@ -72,6 +72,7 @@ module.exports = {
             },
           },
           `gatsby-plugin-styled-components`,
+          `gatsby-plugin-sitemap`,
           {
             resolve: 'gatsby-plugin-mailchimp',
             options: {
