@@ -22,6 +22,10 @@ const GlobalStyles = createGlobalStyle`
   *, *::before, *::after {
     box-sizing: border-box;
   }
+  /* Fix for PrismJS white tokens */
+  .token.property, .token.tag, .token.constant, .token.symbol, .token.deleted{
+    background-color: inherit;
+  }
   
 `;
 
