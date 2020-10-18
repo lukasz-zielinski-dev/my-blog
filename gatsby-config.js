@@ -71,19 +71,16 @@ module.exports = {
               destinationDir: 'static',
             },
           },
-          `gatsby-plugin-styled-components`,
-          `gatsby-plugin-sitemap`,
-          {
-            resolve: 'gatsby-plugin-mailchimp',
-            options: {
-                endpoint: process.env.MAILCHIMP_ENDPOINT
-            },
-          },
-          {
-            resolve: `gatsby-remark-prismjs`,
-            options: {},
-          },
+          `gatsby-remark-prismjs`,
         ],
+      },
+    },
+    `gatsby-plugin-styled-components`,
+    `gatsby-plugin-sitemap`,
+    {
+      resolve: 'gatsby-plugin-mailchimp',
+      options: {
+          endpoint: process.env.MAILCHIMP_ENDPOINT
       },
     },
     {
