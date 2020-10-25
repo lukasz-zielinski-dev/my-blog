@@ -4,7 +4,7 @@ title: Jak walczyć z nadwagą i otyłością? Co przynosi rezultaty, a co nieko
 date: 2020-10-04T11:28:11.083Z
 description: Nadwaga i otyłość to problemy coraz częściej pojawiające się w
   naszym społeczeństwie. Jak z nimi skutecznie walczyć?
-featuredpost: true
+featuredpost: false
 featuredimage: /img/blog-2020.10.04-01.png
 tags:
   - zdrowy styl życia
