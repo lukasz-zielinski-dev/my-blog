@@ -14,7 +14,7 @@ tags:
   - kalorie
   - indeks sytości
 ---
-![Tytuł](../006%20-%20satiety%20index/exports/blog-2020.10.25-00.png "Tytuł")
+![Tytuł](/img/blog-2020.10.25-00.png "Tytuł")
 
 Podstawowym kryterium wpływającym na to jakie efekty (utrata/utrzymanie/wzrost wagi) przyniesie dana dieta jest jej kaloryczność, która wraz z liczbą spalonych przez organizm kalorii składa się na bilans kaloryczny. Ogólne zasady są bardzo proste. W celu utraty wagi należy utrzymywać **deficyt kaloryczny** - liczba dostarczanych kalorii musi być mniejsza od zapotrzebowania organizmu. Natomiast w celu zwiększenia wagi należy wytworzyć **nadwyżkę kaloryczną** - liczba dostarczanych kalorii musi być większa od liczby kalorii spalanych przez organizm. W obu przypadkach istotna jest nie tylko kaloryczność diety, ale również to przez jak długo będzie ona utrzymana. O ile podstawowe wymagania jakie należy spełnić w celu zmiany swojej sylwetki są bardzo proste, to **konsekwentne ich egzekwowanie** przez dłuższy czas może okazać się problematyczne. Podczas przebywania na przedłużającym się deficycie coraz bardziej odczuwalny będzie **głód**, natomiast nadwyżce kalorii może towarzyszyć **odczucie ciągłego przejedzenia**. Pomocna w redukowaniu tych niedogodności może okazać się znajomość **indeksu sytości** i uwzględnienie go podczas planowania posiłków. W momencie gdy przebywamy na deficycie kalorycznym i coraz bardziej odczuwamy głód warto decydować się na produkty o wysokim indeksie sytości takie jak na przykład gotowane ziemniaki, ryby, owsianka, czy pomarańcze. Natomiast jeżeli mamy problem z przejadaniem zaplanowanych kalorii warto włączać do naszej diety produkty o niższym indeksie sytości jak orzeszki ziemne, jogurty oraz słodycze.
 
@@ -61,19 +61,17 @@ Wyznaczony w 1995 r. indeks sytości prezentuje się następująco:
 | ciasto                                 | 65      |
 | croissant                              | 47      |
 
-
-
 Można zauważyć, że wśród produktów posiadających najwyższy indeks sytości znajdują się głownie te **bogate w węglowodany, z wysoką zawartością błonnika i wod**y. Mogło by wydawać się, że węglowodany nie będą zapewniły tak długiego uczucia sytości. Jednak jak widać w połączeniu z błonnikiem, który jest w stanie spowolnić ich wchłanianie i wysoką zawartością wody będą to dobre produkty na redukcję.
 
-![Produkty z wysokim indeksem sytości część 1.](../006%20-%20satiety%20index/exports/blog-2020.10.25-01.png "Produkty z wysokim indeksem sytości część 1.")
+![Produkty z wysokim indeksem sytości część 1.](/img/blog-2020.10.25-01.png "Produkty z wysokim indeksem sytości część 1.")
 
 Kolejną grupą cechująca się wysokim indeksem sytości są produkty **bogate w białko**. Jest to dobra informacja. Białko jest bardzo istotnym makroskładnikiem z perspektywy budowania i utrzymania masy mięśniowej. Dzięki wysokiej sytości skomponowanie diety dostarczającej odpowiednią ilość białka (około 1.6 - 2.5 g/kg masy ciała) nie powinno być problematyczne nawet podczas przebywania na deficycie kalorycznym.
 
-![Produkty z wysokim indeksem sytości część 1.](../006%20-%20satiety%20index/exports/blog-2020.10.25-02.png "Produkty z wysokim indeksem sytości część 1.")
+![Produkty z wysokim indeksem sytości część 2.](/img/blog-2020.10.25-02.png "Produkty z wysokim indeksem sytości część 2.")
 
 Z kolei przyglądając się produktom, które uzyskały najniższy indeks sytości można zauważyć, że często składają się one **głownie z węglowodanów i tłuszczu**. W tym przypadku węglowodany pochodzą w dużej mierze z cukru, a same produkty są wysoko przetworzone. Produkty te będą prawdopodobnie częściej uznawane przez nasz organizm jako smaczne ze względu na to, że stanowią łatwo przyswajalne źródło kalorii. Co z perspektywy organizmu, który jest nastawiony na przetrwanie w trudnych warunkach (a do tego właśnie przygotowały nas tysiąclecia ewolucji) jest bardzo kuszące.
 
-![Produkty z niskim indeksem sytości część 1.](../006%20-%20satiety%20index/exports/blog-2020.10.25-03.png "Produkty z niskim indeksem sytości część 1.")
+![Produkty z niskim indeksem sytości część](/img/blog-2020.10.25-03.png "Produkty z niskim indeksem sytości")
 
 Na koniec warto powiedzieć o aspektach, przez które indeks sytości nie jest tak idealnym wyznacznikiem jak mogło by się wydawać. Po pierwsze liczba przetestowanych produktów jest mocno ograniczona. Dodatkowo widać tu przewagę produktów bogatych w węglowodany, kosztem źródeł białka i zdrowych tłuszczy. Należy roznieć pamiętać, że uczucie sytości jest odczuwane dopiero po pewnym czasie od zjedzenia pokarmu, więc wybieranie produktów z wysokim indeksem sytości nie koniecznie spowoduje, że będziemy jedli mniej kalorii - kluczowe będzie świadome ich liczenie. Jest to szczególnie istotne w przypadku produktów, które bardzo nam smakują.
 
