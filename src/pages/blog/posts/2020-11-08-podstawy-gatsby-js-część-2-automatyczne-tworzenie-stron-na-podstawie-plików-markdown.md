@@ -30,7 +30,7 @@ Wszystkie dane zaczytywane do projektu Gatsby.js są w postaci węzłów (z ang.
 
 #### **`gatsby-node.js`**
 
-```js
+```javascript
 exports.onCreateNode = ({ node }) => {
   console.log(`Node created of type "${node.internal.type}"`)
 }
@@ -40,7 +40,7 @@ Przy obecnej strukturze projektu, w której są zaimportowane dwa pliki markdown
 
 #### **`node`**
 
-```node
+```shell
 Node created of type "SitePage"
 Node created of type "SitePlugin"
 Node created of type "SitePlugin"
@@ -74,7 +74,7 @@ Jak widać jako dwa ostatnie wpisy zostały zalogowane węzły typu `MarkdownRem
 
 #### **`gatsby-node.js`**
 
-```js
+```javascript
 exports.onCreateNode = ({ node }) => {
   if (node.internal.type === `MarkdownRemark`) {
     console.log(node.internal.type)
@@ -86,7 +86,7 @@ Po tej zmianie odpowiedź konsoli ograniczyła sie do dwóch wpisów:
 
 #### **`node`**
 
-```node
+```shell
 Node created of type "MarkdownRemark"
 Node created of type "MarkdownRemark"
 ```
@@ -95,7 +95,7 @@ Teraz można przejść do stworzenia adresu każdej z podstron, który będzie b
 
 #### **`gatsby-node.js`**
 
-```js
+```javascript
 const { createFilePath } = require(`gatsby-source-filesystem`)
 exports.onCreateNode = ({ node, getNode }) => {
   if (node.internal.type === `MarkdownRemark`) {
@@ -106,7 +106,7 @@ exports.onCreateNode = ({ node, getNode }) => {
 
 #### **`node`**
 
-```node
+```shell
 /another-test-markdown/     
 /test-markdown/
 ```
@@ -115,7 +115,7 @@ Dzięki temu uzyskaliśmy gotowe slug'i generowane automatycznie dla każdego po
 
 #### **`gatsby-node.js`**
 
-```js
+```javascript
 const { createFilePath } = require(`gatsby-source-filesystem`)
 exports.onCreateNode = ({ node, getNode, actions }) => {
   const { createNodeField } = actions
@@ -151,7 +151,7 @@ Dane wyciągnięte przy pomocy zapytania GraphQL wyglądają w ten sposób:
 
 #### **`node`**
 
-```node
+```shell
 {
     "data": {
         "allMarkdownRemark": {
@@ -180,7 +180,7 @@ Odpowiednio mapując te dane można podczas budowania aplikacji automatycznie st
 
 #### **`gatsby-node.js`**
 
-```js
+```javascript
 const { createFilePath } = require(`gatsby-source-filesystem`)
 const path = require(`path`)
 
@@ -228,7 +228,7 @@ Jak widać w powyższym przykładzie dla każdego pliku markdown tworzona jest s
 
 #### **`blog-post.js`**
 
-```js
+```javascript
 import React from "react"
 import Layout from "../components/Layout"
 import styled from "styled-components"
@@ -293,7 +293,7 @@ Brakuje jeszcze możliwości łatwego dotarcia do tych treści. W tym momencie m
 
 #### **`blog.js`**
 
-```js
+```javascript
 import React from "react"
 import { Link } from "gatsby"
 import { graphql } from "gatsby"
