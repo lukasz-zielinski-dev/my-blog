@@ -6,7 +6,7 @@ description: Kaskadowe arkusze stylów (CSS) pozwalają na definiowanie wielu
   parametrów obramowania, jednak nie posiadają właściwości pozwalającej na
   stworzenie jedynie narożnych fragmentów ramki. Jednym ze sposobów obejścia
   tego ograniczenia jest zastosowanie pseudo selektorów ::before i ::after.
-featuredpost: true
+featuredpost: false
 featuredimage: /img/blog-2020.10.11-00.png
 tags:
   - programowanie
