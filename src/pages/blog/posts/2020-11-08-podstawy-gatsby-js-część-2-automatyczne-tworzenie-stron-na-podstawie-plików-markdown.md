@@ -11,7 +11,6 @@ featuredimage: /img/blog-2020.11.08-00.png
 tags:
   - generatory stron statycznych
   - Gatsby.js
-  - React.js
   - GraphQL
   - JAM
   - markdown
