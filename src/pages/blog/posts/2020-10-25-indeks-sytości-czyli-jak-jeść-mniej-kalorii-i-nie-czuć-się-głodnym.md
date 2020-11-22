@@ -7,7 +7,7 @@ description: Indeks sytości (IS) to współczynnik wyznaczony eksperymentalnie 
   spożyciu stałej liczby kalorii (w badaniu - 240 kcal)  pod postacią różnych
   produktów utrzymuje się uczucie sytości. Znajomość tego współczynnika może
   pozwolić na łatwiejsze planowanie diety z deficytem (lub nadwyżką) kalorii.
-featuredpost: true
+featuredpost: false
 featuredimage: /img/blog-2020.10.25-03.png
 tags:
   - dieta
