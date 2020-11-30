@@ -6,7 +6,7 @@ date: 2020-11-08T12:53:49.720Z
 description: W tym wpisie omówię jak w prosty sposób można skonfigurować projekt
   Gatsby.js, tak  aby podczas budowania projektu automatycznie generować nowe
   strony na podstawie plików markdown.
-featuredpost: true
+featuredpost: false
 featuredimage: /img/blog-2020.11.08-00.png
 tags:
   - generatory stron statycznych
