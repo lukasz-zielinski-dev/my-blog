@@ -8,7 +8,7 @@ description: Witamina D jest niezwykle istotna dla naszego organizmu. Jest
   badania wykazują również powiązania między poziomem witaminy D a chorobami
   układu krążenia, rakiem i odpornością, jednak nie koniecznie są to
   bezpośrednie związki przyczynowo skutkowe.
-featuredpost: true
+featuredpost: false
 featuredimage: /img/blog-2020.11.22-00.png
 tags:
   - zdrowy styl życia
