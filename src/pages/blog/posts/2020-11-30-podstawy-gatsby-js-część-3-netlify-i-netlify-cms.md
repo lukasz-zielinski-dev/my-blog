@@ -9,7 +9,7 @@ description: >
   publikowanych na stronie od zmian o charakterze programistycznym. Dodatkowo ze
   względu na wygodna konfiguracje CMS`a w oparciu o usługę hostingowa Netlify
   przedstawię również proces publikacji strony na Netlify.
-featuredpost: true
+featuredpost: false
 featuredimage: /img/blog-2020.11.29-00.jpg
 tags:
   - Gatsby.js
