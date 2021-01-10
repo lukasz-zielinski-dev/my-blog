@@ -6,7 +6,7 @@ description: JavaScript jest językiem dynamicznie typowanym - oznacza to, że n
   różnych etapach działania aplikacji do danej zmiennej mogą być przypisane
   różna typy danych. W tym poście postaram się przedstawić typy danych
   występujące w tym języku.
-featuredpost: true
+featuredpost: false
 featuredimage: /img/blog-2020.12.20-00.jpg
 tags:
   - programowanie
