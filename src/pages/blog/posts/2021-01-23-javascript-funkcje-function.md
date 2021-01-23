@@ -2,9 +2,9 @@
 templateKey: blog-post
 title: JavaScript - funkcje (Function).
 date: 2021-01-23T13:30:34.704Z
-description: "## Obiekty w JavaScript są przedstawicielem złożonego typu danych.
+description: Funkcje w JavaScript są przedstawicielem złożonego typu danych.
   Pozwalają na wykonywanie procedur i operacji na danych. Wynikiem wykonania
-  funkcji może być zwrócona przez nią wartość i/lub efekt uboczny."
+  funkcji może być zwrócona przez nią wartość i/lub efekt uboczny.
 featuredpost: true
 featuredimage: /img/blog-2021.01.23-00.png
 tags:
