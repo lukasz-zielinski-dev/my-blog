@@ -4,7 +4,7 @@ title: JavaScript - tablice (Array).
 date: 2021-01-02T10:20:35.074Z
 description: Tablice w JavaScript są specjalnym typem obiektów - posortowaną
   listą, w której kluczami są liczby całkowite.
-featuredpost: true
+featuredpost: false
 featuredimage: /img/blog-2021.01.02-00.jpg
 tags:
   - programowanie
