@@ -4,7 +4,7 @@ title: JavaScript - obiekty (Object).
 date: 2021-01-10T12:40:26.650Z
 description: Obiekty w JavaScript są przedstawicielem złożonego typu danych.
   Pozwalają na organizowanie danych w strukturze klucz - wartość.
-featuredpost: true
+featuredpost: false
 featuredimage: /img/blog-2021.01.10-00.png
 tags:
   - programowanie
