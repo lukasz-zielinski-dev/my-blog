@@ -7,7 +7,7 @@ description: Znajomość podstaw pracy z systemem kontroli wersji jest jedną z
   przypadku małych projektów osobistych umożliwia ona bardziej swobodną i
   efektywną pracę. Natomiast w przypadku większych projektów umożliwia sprawne
   zdążanie równolegle wprowadzanymi zmianami.
-featuredpost: true
+featuredpost: false
 featuredimage: /img/blog-2021.02.06-00.png
 tags:
   - narzędzia programisty
