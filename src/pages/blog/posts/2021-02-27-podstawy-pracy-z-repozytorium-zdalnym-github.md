@@ -5,7 +5,7 @@ date: 2021-02-27T14:42:30.688Z
 description: Wpis skupiony na podstawach pracy z repozytorium zdalnym git-a.
   Przedstawia proces założenia nowego zdalnego repozytorium na GitHub-ie,
   połączenie go z repozytorium lokalnym i podstawy pracy.
-featuredpost: true
+featuredpost: false
 featuredimage: /img/blog-2021.02.27-00.png
 tags:
   - narzędzia programisty
