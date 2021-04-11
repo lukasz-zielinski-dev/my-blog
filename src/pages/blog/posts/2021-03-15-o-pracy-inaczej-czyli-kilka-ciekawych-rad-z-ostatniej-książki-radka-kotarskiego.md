@@ -8,7 +8,7 @@ description: Większość społeczeństwa poświęca znaczną część swojego c
   godzin zajmuje **połowę** z pozostałych 16h). Dodatkowo może może wywierać ona
   wpływ na nasze samopoczucie poza godzinami pracy. Dlatego jest to jeden z tych
   obszarów, w których warto szukać rozwiązań pozwalających na optymalizację.
-featuredpost: true
+featuredpost: false
 featuredimage: /img/blog-2021.03.15-00.png
 tags:
   - książka
