@@ -5,7 +5,7 @@ date: 2021-04-11T09:15:20.116Z
 description: Wpis skupia się na podstawach układu CSS Grid. Przedstawia część
   jego wraz z animowanym przykładem. Omówiony tu został przykład standardowego
   rozmieszczenia elementów na stronie - tzw. "Holy Grail".
-featuredpost: true
+featuredpost: false
 featuredimage: /img/blog-2021.04.10-00.png
 tags:
   - frontend
