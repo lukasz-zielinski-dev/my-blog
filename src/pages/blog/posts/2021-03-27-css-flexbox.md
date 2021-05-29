@@ -5,7 +5,7 @@ date: 2021-03-27T16:31:19.383Z
 description: Wpis prezentuje zastosowania układu CSS Flexbox. Przedstawiona w
   postaci animacji została tu część parametrów dotyczących kontenera flex
   pozwalających na sterowanie zachowaniem tego układu.
-featuredpost: true
+featuredpost: false
 featuredimage: /img/blog-2021.03.27-00.png
 tags:
   - frontend
