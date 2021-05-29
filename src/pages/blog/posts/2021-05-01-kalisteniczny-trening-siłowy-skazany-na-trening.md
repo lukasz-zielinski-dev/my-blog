@@ -5,7 +5,7 @@ date: 2021-05-01T09:05:09.955Z
 description: Wpis ma na celu krótkie przedstawienie książki "skazany na trening"
   autorstwa Paula'a Wade'a. Zawiera krótki przegląd treści wraz z moimi
   odczuciami po kilu tygodniach stosowania przedstawionych w niej metod.
-featuredpost: true
+featuredpost: false
 featuredimage: /img/blog-2021.05.01-00.png
 tags:
   - trening
