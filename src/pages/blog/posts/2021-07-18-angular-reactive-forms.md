@@ -15,7 +15,7 @@ tags:
   - angular materials
   - formularz
 ---
-![Angular - Reactive forms](../023-angular-reactive-forms/exports/blog-2021.06.12-00.png)
+![Angular - Reactive forms](/img/blog-2021.06.12-00.png)
 
 Formularze stanowią znaczącą część wielu aplikacji internetowych. W zależności od projektu nad którym pracujemy stopień ich skomplikowania może się różnić. W projektach wymagających tworzenia formularzy posiadających bardziej złożoną logikę biznesową i walidacje warto rozważyć zastosowanie rozwiązań ułatwiającego to zadane. Przykładem takiego narzędzia dla fremework'a Angular są Reactive forms. Jest to rozwiązanie pozwalające implementację formularzy sterowanych modelami (model-driven). Są one dobrym wyborem w przypadku tworzenia bardziej skomplikowanych struktur. Alternatywą dla tego podejścia są formularze oparte na szablonie html (template-driven) jest to rozwiązanie znacznie prostsze pozwalające na szybkie tworzenie niewielkich formularzy. Jest to jednak podejście odgraniczone w stosunku do Reactive forms.
 
