@@ -5,7 +5,7 @@ date: 2021-05-16T11:08:53.787Z
 description: Wpis przedstawia proces stworzenia przykładowego środowiska
   pozwalającego na rozwijanie własnej biblioteki komponentów, oraz sposób jej
   wykorzystania z poziomu oddzielnego projektu.
-featuredpost: true
+featuredpost: false
 featuredimage: /img/blog-2021.05.15-00.png
 tags:
   - programowanie
