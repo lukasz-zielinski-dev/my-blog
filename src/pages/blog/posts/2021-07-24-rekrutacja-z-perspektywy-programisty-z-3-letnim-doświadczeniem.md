@@ -12,7 +12,7 @@ tags:
   - poszukiwanie pracy
   - meme
 ---
-![Rekrutacja](./exports/blog-2021.07.24-00.png "Rekrutacja")
+![Rekrutacja](/img/blog-2021.07.24-00.png "Rekrutacja")
 
 Niedawno minęły trzy lata, od kiedy zacząłem pracować jako programista. Cały ten okres spędziłem w jednym software house-ie. W tym czasie pracowałem przy dwóch głównych i kilku mniejszych projektach. Od pewnego czasu zacząłem zauważać, że tempo mojego rozwoju zwolniło. Projekt, nad którym pracowałem, był już raczej stabilny pod względem technologicznym. Wiele powtarzających się problemów zostało w nim obsłużonych. Dlatego duża cześć zadań była bardzo powtarzalna. Pod względem biznesowym tempo rozwoju projektu było bardzo dynamiczne, ale możliwości do badania/poznawania nowych rozwiązań i technologii były ograniczone. Zaczęło to wpływać negatywnie na moje ogólne zadowolenie z wykonywanej pracy. Próbowałem co prawda poświęcać więcej wolnego czasu na badanie nowych podejść i technologii. Jednak nie łatwo znaleźć do tego motywację po całym dniu siedzenia przed monitorem. Dlatego uznałem, ze zmiana projektu może być dla mnie dobrym rozwiązaniem.
 
