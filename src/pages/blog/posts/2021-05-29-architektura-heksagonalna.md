@@ -3,7 +3,7 @@ templateKey: blog-post
 title: Architektura heksagonalna.
 date: 2021-05-29T14:36:41.210Z
 description: Wpis ma za zadanie omówienie podstawowych założeń architektury heksagonalnej.
-featuredpost: true
+featuredpost: false
 featuredimage: /img/blog-2021.05.29-00.png
 tags:
   - programowanie
