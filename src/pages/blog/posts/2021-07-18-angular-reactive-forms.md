@@ -5,7 +5,7 @@ date: 2021-07-18T13:21:17.243Z
 description: Wpis skupia się na jednej z popularnych metod implementacji
   formularzy w aplikacjach tworzonych za pomocą framework-a Angular - Reactive
   forms.
-featuredpost: true
+featuredpost: false
 featuredimage: /img/blog-2021.06.12-00.png
 tags:
   - programowanie
